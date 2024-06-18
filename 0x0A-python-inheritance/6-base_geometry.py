@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-'''Module for BaseGeometry class.'''
+"""
+Contains the class BaseGeometry
+"""
 
 
 class BaseGeometry:
-    '''A BaseGeometry class.'''
+    """A class with public attribute area"""
     def area(self):
-        '''Method to compute this area.'''
-        raise Exception('area() is not implemented')
+        """raises an exception when called"""
+        raise Exception("area() is not implemented")
