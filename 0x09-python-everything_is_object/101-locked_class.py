@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""
-LockedClass class
-"""
+"""locked class with no class or object attribute"""
 
 
 class LockedClass:
-    """ setattr """
-    __slots__ = ["first_name"]
+    """Locked class"""
+    __slots__ = ['first_name']

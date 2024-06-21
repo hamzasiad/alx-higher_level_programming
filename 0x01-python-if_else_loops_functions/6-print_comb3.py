@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-for tens in range(0, 10):
-    for ones in range(tens + 1, 10):
-        if (tens * 10 + ones) != 89:
-            print("{}{}".format(tens, ones), end=', ')
-        else:
-            print("{}{}".format(tens, ones))
+for i in range(10):
+    for j in range(i+1, 10):
+        print("{:d}{:d}".format(i, j), end="")
+        if i != 8 or j != 9:
+            print(", ", end="")
+print()
